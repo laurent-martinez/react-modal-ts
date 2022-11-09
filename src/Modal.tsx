@@ -2,7 +2,6 @@ import React from "react";
 import styled from 'styled-components'
 
 const Container = styled.div`
-modalContainer {
   position : absolute;
   top: 0;
   left: 0;
@@ -13,11 +12,8 @@ modalContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 `
 const Overlay = styled.div`
-
-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,7 +23,6 @@ overlay {
   height: 100%;
   background: rgba(28, 26, 26, 0.631);
   z-index: 998;
-}
 `
 const Modal = styled.div`
   background-color: #fff;
