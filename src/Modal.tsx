@@ -79,7 +79,7 @@ export interface ModalProps {
     hideModal: any;
   }
 
-export function myModal({text,img,open,hideModal}: ModalProps) {
+export function MyModal({text,img,open,hideModal}: ModalProps) {
     if (!open) return null;
   
     return (
