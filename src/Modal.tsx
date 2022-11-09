@@ -7,7 +7,6 @@ const Container = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #fff;
   z-index: 997;
   display: flex;
   justify-content: center;
@@ -21,7 +20,7 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(28, 26, 26, 0.631);
+  background: rgb(2 2 2 / 63%);
   z-index: 998;
 `
 const Modal = styled.div`
