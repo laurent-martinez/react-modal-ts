@@ -26,7 +26,7 @@ const Overlay = styled.div`
 const Modal = styled.div`
   background-color: #fff;
   display: flex;
-  flex-direction: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   position: absolute;
@@ -35,7 +35,7 @@ const Modal = styled.div`
   transform: translate(-50%, -50%);
   width: 50%;
   z-index: 999;
-  height: 150px;
+  height: 400px;
   border-radius: 5px;
 
 .closeBtn {
@@ -51,13 +51,13 @@ const Modal = styled.div`
 }
 
 .modalImg {
-
+width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .modalImg img {
-  width: 120px;
+  width: 100%;
   height: max-content;
   object-fit: contain;
 }
@@ -67,13 +67,13 @@ align-items: center;
 }
 `
 export interface ModalProps {
-    img: string;
-    text: string;
+    img?: string;
+    children: React.ReactNode;
     open: boolean;
-    hideModal: any;
+    hideModal: ()=> boolean;
   }
 
-export function MyModal({text,img,open,hideModal}: ModalProps) {
+export function MyModal({children,img,open,hideModal}: ModalProps) {
     if (!open) return null;
   
     return (
@@ -83,7 +83,7 @@ export function MyModal({text,img,open,hideModal}: ModalProps) {
             <div className="modalImg">
               <img src={img} alt="" />
             </div>
-            <div className="modalContent">{text}</div>
+            <div className="modalContent">{children}</div>
             <button type="button" className="closeBtn" onClick={hideModal}>
               X
             </button>
