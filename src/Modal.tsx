@@ -5,6 +5,8 @@ const Container = styled.div`
   position: absolute;
   top: 0;
   left: 0;
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 100vh;
   z-index: 997;
@@ -54,7 +56,7 @@ const Modal = styled.div`
   }
   .modalImg img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
   }
 `;
