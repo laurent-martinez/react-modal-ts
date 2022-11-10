@@ -35,7 +35,7 @@ const Modal = styled.div`
   transform: translate(-50%, -50%);
   width: 50%;
   z-index: 999;
-  height: 400px;
+  height: 300px;
   border-radius: 5px;
 
 .closeBtn {
@@ -57,7 +57,7 @@ justify-content: center;
 align-items: center;
 }
 .modalImg img {
-  width: 100%;
+  width: 20%;
   height: max-content;
   object-fit: contain;
 }
