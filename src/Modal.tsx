@@ -67,7 +67,7 @@ export interface ModalProps {
   hideModal: () => boolean;
 }
 
-export function SublimeModal({
+export function MyModal({
   children,
   img,
   open,
