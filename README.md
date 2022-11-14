@@ -6,16 +6,15 @@
 
 import { MyModal } from '@martidev/react-modal-ts';
 
-```
-
+````
+<!-- <img align="center" width="400" src="/src/img/import3.png" alt="import"> -->
 
 <p align="left">-3- create open variable</p>
 ```typescript
  const [open, setOpen] = useState<boolean>(false);
-```
-<!-- <img align="center" width="400" src="/src/img/Open.png" alt="variable"> -->
+````
+
 <p align="left">-4- create hideModal function</p>
-<!-- <img align="center" width="400" src="/src/img/hideModal.png" alt="function"> -->
 ```javascript
         hideModal={() => setOpen(false)}
 ```
@@ -24,13 +23,10 @@ import { MyModal } from '@martidev/react-modal-ts';
 ```javascript
    img="https://myPictureAddress"
 ```
-   
-<!-- <img align="center" width="400" src="/src/img/img.png" alt="img"> -->
 <p align="left">-2- you can custom as well the closing modal button, there is a default css style but by adding another class you can customize it.</p>
 ```jsx
    closeBtnStyle="coloris"
 ```
-<!-- <img align="center" width="400" src="/src/img/btnStyle.png" alt="btn style"> -->
 <p>and in a css file add your personal custom style =></p>
 ```css
   .coloris {
@@ -38,7 +34,6 @@ import { MyModal } from '@martidev/react-modal-ts';
   color: white;
 }
 ```
-<!-- <img align="center" width="400" src="/src/img/coloris.png" alt="btn css"> -->
 <p align="left">-3- you can also add a lot of content via the children props :</p>
 <p align="left">you can add button or p, just put your code between the modal bracket.</p>
 ```jsx
@@ -52,7 +47,6 @@ import { MyModal } from '@martidev/react-modal-ts';
           accusamus, adipisci provident quasi.
         </p>
 ```
-<!-- <img align="center" width="400" src="/src/img/content.png" alt="content"> -->
 <p align="left">-4- you can style the content you add into your modal:</p>
 ```css
   .content {
@@ -60,5 +54,4 @@ import { MyModal } from '@martidev/react-modal-ts';
   padding: 15px;
 }
 ```
-<!-- <img align="center" width="400" src="/src/img/contentStyle.png" alt="content style"> -->
 <p>add your style via the css as you did with the closeBtnSyle.</p>
