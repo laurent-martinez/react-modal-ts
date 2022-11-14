@@ -5,6 +5,7 @@
 ```javascript
 
 import { MyModal } from '@martidev/react-modal-ts';
+
 ```
 <!-- <img align="center" width="400" src="/src/img/import3.png" alt="import"> -->
 
