@@ -66,7 +66,7 @@ export interface ModalProps {
   closeBtnStyle: string;
   open: boolean;
   styledContent: string;
-  hideModal: () => boolean;
+  hideModal: () => {};
 }
 
 export function MyModal({
