@@ -1,6 +1,6 @@
 <h1>How to use react-modal-ts:</h1>
 
-<p>1- ```npm i @martidev/react-modal-ts```</p>
+<p>-1- npm i @martidev/react-modal-ts</p>
 -2- import it where you want to display it
 
 ```javascript
