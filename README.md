@@ -3,6 +3,7 @@
 <p align="left">1- npm i @martidev/react-modal-ts</p>
 <p align="left">-2- import it where you want to display it </p>
 ```javascript
+
 import { MyModal } from '@martidev/react-modal-ts';
 ```
 <!-- <img align="center" width="400" src="/src/img/import3.png" alt="import"> -->
