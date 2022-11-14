@@ -1,4 +1,4 @@
-#How to use react-modal-ts:
+<h1>How to use react-modal-ts:</h1>
 
 -1- npm i @martidev/react-modal-ts
 -2- import it where you want to display it
@@ -19,7 +19,7 @@ const [open, setOpen] = useState<boolean>(false);
         hideModal={() => setOpen(false)}
 ```
 
-##Then you can custom it :
+<h2>Then you can custom it:</h2>
 -1- you can custom the img by passing directly the address of the picture or importing one
 
 ```javascript
