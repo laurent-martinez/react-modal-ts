@@ -13,12 +13,12 @@
 <p align="left">-1- you can custom the img by passing directly the address of the picture or importing one</p>
 <img align="center" width="400" src="/src/img/img.png" alt="img">
 <p align="left">-2- you can custom as well the closing modal button, there is a default css style but by adding another class you can customize it.</p>
-<img align="center" width="400" src="/src/img/btnStyle.png" alt="import">
+<img align="center" width="400" src="/src/img/btnStyle.png" alt="btn style">
 <p>and in a css file add your personal custom style =></p>
-<p>.closeBtnSyle{ background-color: blue; }</p> 
+<img align="center" width="400" src="/src/img/coloris.png" alt="btn css">
 <p align="left">-3- you can also add a lot of content via the children props :</p>
 <p align="left">you can add button or p, just put your code between the modal bracket.</p>
-<img align="center" width="400" src="/src/img/content.png" alt="import">
+<img align="center" width="400" src="/src/img/content.png" alt="content">
 <p align="left">-4- you can style the content you add into your modal:</p>
-<img align="center" width="400" src="/src/img/contentStyle.png" alt="import">
+<img align="center" width="400" src="/src/img/contentStyle.png" alt="content style">
 <p>add your style via the css as you did with the closeBtnSyle.</p>
