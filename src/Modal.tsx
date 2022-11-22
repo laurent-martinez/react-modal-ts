@@ -34,7 +34,7 @@ const Modal = styled.div`
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 35%;
+  width: 45%;
   z-index: 999;
   border-radius: 5px;
   overflow: hidden;
