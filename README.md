@@ -16,7 +16,7 @@ const [open, setOpen] = useState<boolean>(false);
 -4- create hideModal function
 
 ```javascript
-        hideModal={() => setOpen(false)}
+        hideModal={async() => setOpen(false)}
 ```
 
 <h2>Then you can custom it:</h2>

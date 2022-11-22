@@ -22,7 +22,7 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(2 2 2 / 63%);
+  background: rgb(2 2 2 / 73%);
   z-index: 998;
 `;
 const Modal = styled.div`
@@ -57,15 +57,15 @@ const Modal = styled.div`
   .modalImg img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
   }
 `;
 export interface ModalProps {
-  img: string;
+  img?: string;
   children: React.ReactNode;
-  closeBtnStyle: string;
+  closeBtnStyle?: string;
   open: boolean;
-  styledContent: string;
+  styledContent?: string;
   hideModal: () => {};
 }
 
